@@ -111,7 +111,8 @@ namespace yash_chinese
             e.Graphics.DrawString("" + dashLine, new Font("Arial", 10, FontStyle.Regular), Brushes.Black, new Point(20, 400));
             e.Graphics.DrawString("" + dashLine, new Font("Arial", 10, FontStyle.Regular), Brushes.Black, new Point(20, 550));
 
-            e.Graphics.DrawString("Total Bill: " + totalproductpricetextbox.Text, new Font("Arial", 15, FontStyle.Regular), Brushes.Black, new Point(500, 600));
+            e.Graphics.DrawString("Total Amount for payment: ", new Font("Arial", 15, FontStyle.Regular), Brushes.Black, new Point(30, 600));
+            e.Graphics.DrawString("" + totalproductpricetextbox.Text, new Font("Arial", 15, FontStyle.Regular), Brushes.Black, new Point(600, 600));
 
         }
 
